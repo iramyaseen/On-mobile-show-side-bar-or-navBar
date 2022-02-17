@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Side Bar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="navBar">
+      <div class="container displayNavBar">
+        <div class="logo">
+          <p>Menu Bar</p>
+        </div>
+        <div class="navBarList">
+          <a href="#device">Device</a>
+          <a href="#magazines">Magazines</a>
+          <a href="#store">Store</a>
+          <a href="#collection">Collection</a>
+        </div>
+      </div>
+    </div>
+    <div class="bar">
+      <p>Menu Bar</p>
+      <span id="menuLine"><i class="far fa-bars"></i></span>
+    </div>
+
+    <div id="sideBar" class="sides">
+      <div id="closeBtn">
+        <i class="fas fa-times"></i>
+      </div>
+      <div class="content">
+        <h4>All Categories</h4>
+        <div class="listIcons" id="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device">
+            <i class="fad fa-desktop"></i>
+            <a href="#" id="device">Device</a>
+          </div>
+        </div>
+        <div class="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device">
+            <i class="fas fa-image"></i>
+            <a href="#">Magazines</a>
+          </div>
+        </div>
+        <div class="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device">
+            <i class="far fa-store"></i>
+            <a href="#">Store</a>
+          </div>
+        </div>
+        <div class="listIcons">
+          <div class="device2">
+            <i class="fas fa-image"></i>
+            <a href="#">Collection</a>
+          </div>
+        </div>
+      </div>
+      <div id="deviceList">
+        <h4>Devices</h4>
+        <div class="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device2">
+            <i class="fas fa-image"></i>
+            <a href="#" id="Collection">Collection</a>
+          </div>
+        </div>
+        <div class="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device2">
+            <i class="fas fa-image"></i>
+            <a href="#" id="Collection">Collection</a>
+          </div>
+        </div>
+        <div class="listIcons">
+          <div>
+            <i class="fas fa-chevron-left"></i>
+          </div>
+          <div class="device2">
+            <i class="fas fa-image"></i>
+            <a href="#" id="Collection">Collection</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

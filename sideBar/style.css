@@ -1,0 +1,216 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  position: relative;
+}
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container-sm,
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container-xxl,
+  .container-xl,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container {
+    max-width: 1320px;
+  }
+}
+.banner {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.content {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.content button {
+  margin-right: 10px;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  border-radius: 50px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  transition: 0.9s ease-in;
+}
+.content button:hover {
+  background-color: #2d5e90;
+  transition: 0.9s ease-in;
+}
+.navBar,
+.bar {
+  background-color: #2d5e90;
+}
+
+.displayNavBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+.logo,
+.bar {
+  display: flex;
+  color: white;
+}
+.logo p {
+  font-weight: bold;
+  font-size: 30px;
+}
+.navBarList {
+  padding-top: 10px;
+}
+.navBarList a {
+  margin-right: 40px;
+  color: white;
+  outline: none;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.9s;
+}
+.sides {
+  background-color: #2d5e90;
+  height: 100vh;
+  left: 0;
+  top: 0%;
+  width: 0%;
+  overflow-x: hidden;
+  position: absolute;
+  color: white;
+}
+.content {
+  padding-top: 60px;
+  color: white;
+}
+.content h4 {
+  color: lightgray;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.listIcons {
+  display: flex;
+  font-size: 20px;
+  border: 1px solid lightgray;
+  border-left: none;
+  border-right: none;
+  padding: 25px 5px;
+  left: 0%;
+  right: 0%;
+}
+.listIcons a {
+  color: white;
+  outline: none;
+  text-decoration: none;
+}
+#closeBtn {
+  top: 0%;
+  right: 15px;
+  position: absolute;
+  padding-bottom: 20px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+#closeBtn i:hover {
+  color: lightgray;
+}
+.device {
+  padding-left: 30px;
+}
+.listIcons .fas {
+  font-weight: lighter;
+}
+.device2 {
+  padding-left: 40px;
+}
+#deviceList {
+  width: 0%;
+  display: none;
+  background-color: #2d5e90;
+  height: 100vh;
+  left: 0;
+  top: 0%;
+  overflow-x: hidden;
+  position: absolute;
+  color: white;
+}
+.deviceList,
+h4 {
+  color: lightgray;
+  font-size: 20px;
+  padding-bottom: 30px;
+  padding-top: 80px;
+  padding-left: 30px;
+}
+.bar {
+  display: none;
+}
+@media only screen and (max-width: 793px) {
+  .bar {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 20px;
+    transition: all 0.5s;
+    font-size: 40px;
+  }
+  .navBar {
+    display: none;
+  }
+}
